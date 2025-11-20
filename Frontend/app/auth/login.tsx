@@ -8,9 +8,10 @@ export default function Login() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Login</Text>
-
+       <Text style={{ marginTop: 1, fontWeight: "600" , marginBottom:1}}>Email</Text>
       <TextInput placeholder="Email" style={styles.input} keyboardType="email-address" />
-      <TextInput placeholder="Password" secureTextEntry style={styles.input} />
+       <Text style={{ marginTop: 1, fontWeight: "600" , marginBottom:1}}>Password</Text>
+      <TextInput placeholder="qqz@123" secureTextEntry style={styles.input} />
 
       <TouchableOpacity
         style={styles.button}
